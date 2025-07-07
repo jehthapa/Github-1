@@ -147,7 +147,7 @@
 
 }
 
-#Doublebox{
+#Doublebox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,18 +169,17 @@
 }
 
 .thirdbox {
-
-    height: 100%;
-    width: 80%;
+    width: 85%;
     gap: 20px;
     display: center;
     flex-direction: center;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     background-color: rgb(236, 245, 245);
     border: 0px solid rgb(252, 255, 254);
     border-radius: 45px;
     padding-top: 25px;
+    padding-right: 40px;
 
 }
 
@@ -202,22 +201,20 @@
 
 #Fourth-page {
 
-    height: 40%;
-    width: 50%;
+    height: 70%;
+    width: 100%;
     display: flexbox;
     flex-direction: column;
     justify-content: right;
     align-items: first baseline;
     border-radius: 45px;
     padding-top: 45px;
-     padding-bottom: 45px;
+    padding-bottom: 45px;
 
 }
 
 .Frbox {
-
-    height: 80%;
-    width: 80%;
+    width: 85;
     gap: 20px;
     display: center;
     flex-direction: center;
@@ -235,7 +232,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1px;
+    font-size: 25px;
 
 }
 
@@ -248,35 +245,169 @@
 
 #Fifth-page {
 
-    width: 100%;
+    width: 45%;
     height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(247, 239, 222, 0.699);
-
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 40px;
 }
 
-.h2 {
+.fifbox2 {
 
-    font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-
-}
-
-.cont {
-    width: 180px;
+    width: 250px;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: px solid black;
     border-radius: 10px;
     color: rgb(243, 242, 244);
     background-color: black;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: larger;
 
 }
+
+#Six-page {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.sixbox {
+
+    width: 78%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid rgb(252, 255, 254);
+    border-radius: 50px;
+    color: rgb(240, 239, 239);
+    background-color: rgba(23, 25, 33, 0.993);
+}
+
+
+.sixbox2 h1 {
+
+    display: flex;
+    justify-content: flex-start align-items:baseline;
+    color: rgba(48, 236, 123, 0.867);
+    font-size: 90px;
+
+}
+
+.sixbox2 h2 {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: first baseline;
+    font-size: 35px;
+
+}
+
+.sixbox2 p {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: first baseline;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(188, 179, 179);
+    padding-bottom: 20px;
+}
+
+.sixbox3 {
+
+    width: 25%;
+    height: 30px;
+    display: flex;
+    font-size: 15px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(253, 248, 248);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: black;
+    font-style: normal;
+}
+
+#Seventh-page {
+
+    width: 45%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 40px;
+}
+
+.sevbox {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sevbox1 {
+
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: rgb(243, 242, 244);
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: larger;
+
+} 
+.sevbox2 {
+
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: rgb(243, 242, 244);
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: larger;
+
+}
+
+
+
+
+
+/* @media (max-width:430px) {
+
+    #navbar {
+
+        background-color: darkgoldenrod;
+    }
+} */
