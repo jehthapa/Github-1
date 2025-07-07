@@ -29,7 +29,7 @@
 #navbar nav ul li a:hover {
 
     color: rgba(48, 236, 123, 0.867);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #navbar .icon {
@@ -114,7 +114,7 @@
 
 #Second-page {
 
-    height: 30%;
+    height: 25%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -147,37 +147,136 @@
 
 }
 
-#Third-page {
-
-    height: 30%;
-    width: 100%;
+#Doublebox{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 45px;
-
 }
 
-#third-page h1 {
 
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+#Third-page {
+
+    width: 100%;
+    height: 70%;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: right;
+    align-items: first baseline;
+    border-radius: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
 }
 
 .thirdbox {
 
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content:first baseline;
-    align-items: center;
+    height: 100%;
+    width: 80%;
     gap: 20px;
-    border: 0px solid rgb(252, 255, 254);
-    border-radius: 50px;
-    color: rgb(12, 12, 12);
+    display: center;
+    flex-direction: center;
+    justify-content: right;
+    align-items: center;
     background-color: rgb(236, 245, 245);
+    border: 0px solid rgb(252, 255, 254);
+    border-radius: 45px;
+    padding-top: 25px;
+
+}
+
+.thirdbox h2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.thirdbox2 {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#Fourth-page {
+
+    height: 40%;
+    width: 50%;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: right;
+    align-items: first baseline;
+    border-radius: 45px;
+    padding-top: 45px;
+     padding-bottom: 45px;
+
+}
+
+.Frbox {
+
+    height: 80%;
+    width: 80%;
+    gap: 20px;
+    display: center;
+    flex-direction: center;
+    justify-content: right;
+    align-items: center;
+    background-color: rgb(236, 245, 245);
+    border: 0px solid rgb(252, 255, 254);
+    border-radius: 45px;
+    padding-top: 25px;
+
+}
+
+.Frbox h2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+
+}
+
+.Frbox2 {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#Fifth-page {
+
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247, 239, 222, 0.699);
+
+}
+
+.h2 {
+
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.cont {
+    width: 180px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: px solid black;
+    border-radius: 10px;
+    color: rgb(243, 242, 244);
+    background-color: black;
     padding-top: 5px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
 
 }
