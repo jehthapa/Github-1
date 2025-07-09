@@ -38,6 +38,8 @@
     gap: 10px;
 }
 
+/* Firstpage */
+
 #Firstpage {
 
     width: 100%;
@@ -112,6 +114,8 @@
     padding-left: 32px;
 }
 
+/* Secondpage */
+
 #Second-page {
 
     height: 25%;
@@ -153,6 +157,7 @@
     align-items: center;
 }
 
+/* Thirdpage */
 
 #Third-page {
 
@@ -199,6 +204,11 @@
     text-align: center;
 }
 
+.thirdbox3 img{
+
+}
+/* Fourthpage */
+
 #Fourth-page {
 
     height: 70%;
@@ -243,6 +253,8 @@
     text-align: center;
 }
 
+/* Fifthpage */
+
 #Fifth-page {
 
     width: 45%;
@@ -272,6 +284,8 @@
     font-size: larger;
 
 }
+
+/* sixpage */
 
 #Six-page {
 
@@ -304,7 +318,6 @@
 .sixbox2 h1 {
 
     display: flex;
-    justify-content: flex-start align-items:baseline;
     color: rgba(48, 236, 123, 0.867);
     font-size: 90px;
 
@@ -347,67 +360,44 @@
     font-style: normal;
 }
 
+/* seventh page */
+
 #Seventh-page {
 
-    width: 45%;
-    height: 30vh;
+    height: 90%;
+    width: 100%;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    padding-bottom: 10px;
-    padding-top: 5px;
-    border-radius: 40px;
-}
-
-.sevbox {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.467);
 
 }
 
-.sevbox1 {
-
-    width: 250px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    color: rgb(243, 242, 244);
-    background-color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: larger;
-
-} 
-.sevbox2 {
-
-    width: 250px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    color: rgb(243, 242, 244);
-    background-color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: larger;
-
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  margin-top: 30px;
+  padding-top: 20px;
+  font-size: 13px;
 }
 
+ /* Responsive Website  */
 
 
-
-
-/* @media (max-width:430px) {
+@media (max-width:430px) {
 
     #navbar {
 
-        background-color: darkgoldenrod;
+        background-color: rgba(48, 236, 123, 0.867);
     }
-} */
+
+    #Doublebox {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
