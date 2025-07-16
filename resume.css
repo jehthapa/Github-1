@@ -1,0 +1,98 @@
+
+#resume{
+    display: flex;
+    max-width: 1000px;
+    height: 900px;
+    margin: 40px;
+    background-color: white;
+    padding-left: 100px;
+
+}
+
+.sidebar {
+    width: 50%;
+    background-color: #f1e9e0;
+    padding: 30px;
+    text-align: center;
+   
+}
+
+.profile-photo {
+    width: 30%;
+    height: 20%;
+    border-radius: 2%;
+    margin-right: 200px;
+}
+
+.info {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+.section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 19px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 19px;
+}
+
+.name {
+    width: 65%;
+    padding: 40px;
+    
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+header h2 {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h3 {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.job p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0 10px;
+}
+
+.job ul {
+    padding-left: 20px;
+    font-size: 17px;
+}
