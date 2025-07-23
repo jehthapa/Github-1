@@ -1,5 +1,113 @@
 
 
+body {
+  background-color: #f6f6f6;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  background: #f1f1f1;
+  padding: 30px;
+  width: 35%;
+  text-align: center;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.skills {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.skills h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.main {
+  padding: 40px;
+  width: 65%;
+}
+
+.main h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.main h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.experience h3 {
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.job {
+  margin-bottom: 30px;
+}
+
+.job h4 {
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.job .company {
+  font-size: 14px;
+  color: #444;
+}
+
+.job .date {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.job p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 
 
 
